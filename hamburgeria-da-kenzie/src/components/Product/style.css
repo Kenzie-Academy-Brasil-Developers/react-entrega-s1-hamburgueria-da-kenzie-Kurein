@@ -1,0 +1,27 @@
+.product__div {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.addButton {
+  border: none;
+  background-color: #0066ff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1em;
+}
+.addButton:active {
+  opacity: 0.9;
+}
+
+@media only screen and (min-width: 768px) {
+  .product__div {
+    width: 33%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .product__div {
+    width: 25%;
+  }
+}
